@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="200dp"
     android:background="@color/Background"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark"
     >
 
     <ImageView
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        android:paddingTop="10dp"
+
+        android:src="@drawable/desktop_gtway_2" />
+
+    <ImageView
+        android:id="@+id/my_image"
+        android:layout_width="96dp"
+        android:layout_height="77dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/my_image" />
+
+    <TextView
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
-        />
+        android:layout_below="@+id/my_image"
+        android:layout_centerInParent="true"
+        android:paddingTop="6dp"
+        android:text="@string/name"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:text="Ivan Mitrovic"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ivan.mitrovic@rt-rk.com" />
+        android:layout_below="@+id/name"
+        android:layout_centerInParent="true"
+        android:text="@string/email"
+        android:textColor="#ffffff"
+        android:textSize="13sp" />
 
 
-</LinearLayout>
+</RelativeLayout>

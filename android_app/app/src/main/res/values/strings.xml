@@ -9,5 +9,7 @@
     <string name="logout">Log out</string>
     <string name="about">About</string>
     <string name="user_manual">User manual</string>
+    <string name="name">Ivan Mitrovic</string>
+    <string name="email">ivan.mitrovic@rt-rk.com</string>
 
 </resources>

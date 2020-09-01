@@ -5,10 +5,7 @@
         <item name="colorPrimary">#4336b0</item>
         <item name="colorPrimaryDark">#1577C5</item>
         <item name="colorAccent">#22EAD7</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowFullscreen">true</item>
     </style>
-
-
 
 </resources>
