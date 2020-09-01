@@ -2,5 +2,12 @@
     <string name="app_name">test_rebranding_application</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="manage_users">Manage users</string>
+    <string name="devices">Devices</string>
+    <string name="logout">Log out</string>
+    <string name="about">About</string>
+    <string name="user_manual">User manual</string>
 
 </resources>
