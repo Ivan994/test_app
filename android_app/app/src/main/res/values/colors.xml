@@ -2,7 +2,11 @@
 <resources>
     <color name="Background">#26988E</color>
     <color name="Icons">#1CE124</color>
-    <color name="Color0">#4366b0</color>
-    <color name="Color1">#4366b0</color>
-    <color name="Color2">#4366b0</color>
+    <color name="color_edit">#A57E0A</color>
+    <color name="color_delete">#CA0E4E</color>
+    <color name="color_manage_users">#672714</color>
+    <color name="color_devices">#4366b0</color>
+    <color name="color_logout">#A107BC</color>
+    <color name="color_about">#06780B</color>
+    <color name="color_user_manual">#0C9A8D</color>
 </resources>
